@@ -33,7 +33,7 @@ ipipeline {
             echo 'Pipeline completed successfully 🎉'
         }
         failure {
-            echo 'Pipeline sucess ❌'
+            echo 'Pipeline failure ❌'
         }
     }
 }
