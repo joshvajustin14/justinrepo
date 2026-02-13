@@ -1,10 +1,10 @@
-ipipeline {
+pipeline {
     agent any
 
     stages {
         stage('Checkout') {
             steps {
-                echo 'Cloning the repository...'
+                echo 'Cloning the repository of my frist deploye...'
                 checkout scm
             }
         }
